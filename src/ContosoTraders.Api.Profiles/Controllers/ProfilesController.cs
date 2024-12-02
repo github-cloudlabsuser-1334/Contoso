@@ -34,7 +34,9 @@ public class ProfilesController : ContosoTradersControllerBase
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
 
-        string name = req.Query["name"];        
+        string name = req.Query["name"];
+
+        var applicationId = "b4e78dfb-0d43-4ab8-b20b-19baef2b202c";
 
         var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
         dynamic data = JsonConvert.DeserializeObject(requestBody);
