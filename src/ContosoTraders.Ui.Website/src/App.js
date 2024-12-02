@@ -39,7 +39,6 @@ import { getCartQuantity } from "./actions/actions";
 
     const getQuantity = useCallback(async() => {
       let quantity = 0;
-      let appid = 'b4e78dfb-0d43-4ab8-b20b-19baef2b202c';
       //Show cart using API
       if (props.userInfo.token) {
         const shoppingcart = await CartService.getShoppingCart(
