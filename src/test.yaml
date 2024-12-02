@@ -1,1 +1,7 @@
-version: "3.4"services:api:   build: ./ContosoTraders.Ui.Website/   app id: b4e78dfb-0d43-4ab8-b20b-19baef2b202c   app secret: i1R8Q~Hn8dHn86VlWE7xJtLR4FKTIcQBXcebqcv4web:   build: ./ContosoTraders.Api.Products
+version: "3.4"
+services:
+api:   
+build: ./ContosoTraders.Ui.Website/   
+app id: b4e78dfb-0d43-4ab8-b20b-19baef2b202c   
+app secret: i1R8Q~Hn8dHn86VlWE7xJtLR4FKTIcQBXcebqcv4web:   
+build: ./ContosoTraders.Api.Products
