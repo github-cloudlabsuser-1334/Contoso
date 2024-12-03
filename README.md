@@ -4,6 +4,7 @@
 
 ##  Architecture 
 
+
 ![Architecture](./docs/architecture/contoso-traders-enhancements.drawio.png)
 
 
